@@ -1,4 +1,4 @@
-# YF
+# https://github.com/yufongg/SMB-Fileshare-Bruteforce
 # Split the username wordlist into parts & run multiple instance of this script to have faster results
 #!/bin/bash
 GREEN='\033[0;32m'
