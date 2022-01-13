@@ -23,7 +23,7 @@ else
 		for passwords in $(<$3);
 		do
 			echo "Try: $2 + ${passwords}";
-			if [[ $(smbmap -H $1 -u $2 -p ${passwords} | grep $4 | grep -P '(READ\sONLY|WRITE|READ)')  ]]; 
+			if [[ $(smbmap -H $1 -u $2 -p ${passwords} | grep $4 | grep -P '(WRITE|READ)')  ]]; 
 			then
 				echo -e "${GREEN}Found Valid Combination $2:${passwords}${NC}";
 				echo "$2:${passwords}" >> Results.txt
