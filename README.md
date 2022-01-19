@@ -2,7 +2,7 @@
 SMBMap + Regex
 
 # What it does?
-Bruteforce against SMB Fileshare, returning results if you have read/write access
+Bruteforce against SMB Fileshare, returning results(in green) if you have read/write access.
 
 # How to Use:
 `Usage: ./smb_bruteforce.sh <ip_addr> <username/username wordlist> <password wordlist> <fileshare>`
